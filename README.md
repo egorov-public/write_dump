@@ -1,5 +1,5 @@
 # write_dump
-Write dump in windows and continue execution
+Write dump and continue execution. For Windows only.
 
 1. Install WINSDK10 debugging tools
 2. .sympath srv*c:\Symbols*https://msdl.microsoft.com/download/symbols
