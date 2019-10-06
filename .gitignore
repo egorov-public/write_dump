@@ -1,0 +1,108 @@
+########################################################################
+## RAS Specific
+
+# User specific build settings
+/UserConfig.h
+/UserConfig.h.bak
+
+# Backup files created during RAS builds
+/BuildConfig.h.bak
+/BuildConfig.cs.bak
+
+# Copied from general repo during RAS Reporting builds
+/Setups/ReportingEngine/License.rtf
+
+# PSAdmin user specific settings
+Src/Server/RASAdmin/PowerShell/PSAdmin/Scripts/Defaults.ps1
+
+########################################################################
+## Generic Visual Studio .gitignore template
+## https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+*_auto_idl.h
+*_auto_idl.c
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+*.res
+*.o
+*.gch
+
+# Visual C++ cache files
+ipch/
+.vs/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.opendb
+*.VC.db
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Qt project temporary files
+qrc_*.cpp
+moc_*.cpp
+ui_*.h
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Wix object and debug files, merge modules
+*.wixobj
+*.wixpdb
+*.msm
+
+########################################################################
+## Windows detritus
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+########################################################################
